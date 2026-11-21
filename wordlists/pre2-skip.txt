@@ -1,0 +1,16 @@
+# 対象語リストから除く語(カンマ区切り。# 以降はコメント)。変更したら node tools/build-wordlist.mjs を実行する。
+
+# 文法用語(物語の中で自然に使えない)
+adjective, noun, verb, plural, singular, comparative, superlative, punctuation, capital letter
+
+# 略語・くだけた表記
+pc, ms, id, max, pro, yeah, alright
+
+# 単位・通貨の細かい表記(metre/kilometre/centimetre/gram/litre は kilogram, kilometer などで代表させる)
+cent, pence, euro, inch, gramme, kilo
+
+# 中学生向けの物語に入れにくい語
+bra, cigarette, drug, terrorist, slave, clone
+
+# イギリス式の別語(同じ意味のアメリカ式の語を使う)
+car park, petrol, petrol station, motorway, roundabout, tights, washing-up, sitting room, swimming costume, headteacher, crisp, cooker, tap, granny, granddad
